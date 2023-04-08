@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "Playground",
-    "slug": "playground",
+    "name": "Expo Playground NX",
+    "owner": "beeman",
+    "slug": "expo-playground-nx",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -13,19 +14,28 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "dev.beeman.expo.playground.nx"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "dev.beeman.expo.playground.nx"
     },
     "web": {
       "favicon": "./assets/favicon.png",
       "bundler": "metro"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3096be3e-bca5-4a0d-a9a9-7f54af4c90e6"
+      }
     }
   }
 }

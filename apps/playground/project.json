@@ -55,7 +55,7 @@
       "options": {}
     },
     "build-status": {
-      "executor": "@nrwl/expo:build-web",
+      "executor": "@nrwl/expo:build-status",
       "options": {}
     },
     "sync-deps": {
