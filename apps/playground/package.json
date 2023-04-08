@@ -5,10 +5,13 @@
   "dependencies": {
     "@testing-library/jest-native": "*",
     "@testing-library/react-native": "*",
-    "react-native": "*",
+    "react-native": "0.71.6",
     "expo": "*",
     "react-native-svg": "*",
-    "react-native-web": "*"
+    "react-native-web": "*",
+    "@nrwl/expo": "*",
+    "@expo/metro-config": "*",
+    "react": "*"
   },
   "scripts": {
     "eas-build-pre-install": "cd ../../ && cp package-lock.json ./apps/playground/",
